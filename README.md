@@ -22,13 +22,13 @@ Web application for testing, saving and displaying the boot time of instances in
 
 6.	Perform the following commands (as `root`) to get the installation working and secure :
 
-	* `# chown -R <your_user>:<apache_user> /path/to/your/installation/`
-	* `# chmod -R 770 /path/to/your/installation/`
+* `# chown -R <your_user>:<apache_user> /path/to/your/installation/`
+* `# chmod -R 770 /path/to/your/installation/`
 
 7.	Optionnal : If you're running Red Hat-based Linux, you may also have to modify some SELinux policies :
 
-	* `# setsebool httpd_can_network_connect 1`
-	* `# setsebool httpd_can_sendmail 1` (optionnal : if you want an e-mail when the test is over)
+* `# setsebool httpd_can_network_connect 1`
+* `# setsebool httpd_can_sendmail 1` (optionnal : if you want an e-mail when the test is over)
 
 
 ## How to use
@@ -47,7 +47,4 @@ Simply query the following URLs using your favorite browser :
 
 ## Author
 Initial writing and commit by Quentin Barrand, CERN IT-SDC-OL, 2013 Summer Student.
-
-* [Twitter](https://twitter.com/QuentinBarrand)
-* [Website](http://quentinbarrand.com)
-* [Email](mailto:quentin@quentinbarrand.com)
+[Twitter](https://twitter.com/QuentinBarrand) | [Website](http://quentinbarrand.com) | [Email](mailto:quentin@quentinbarrand.com)
