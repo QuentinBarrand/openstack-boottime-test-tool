@@ -36,7 +36,7 @@ Simply query the following URLs using your favorite browser :
 
 #### Launch a new test
 * Pet machines (with DNS registration) `/openstack-boottime/index.php/new/<image_id>/<flavor_id>/<rounds>`
-* Cattle machines (without DNS registration - usually faster) `/index.php/new/<image_id>/<flavor_id>/<rounds>/nodns`
+* Cattle machines (without DNS registration - usually faster) `/openstack-boottime/index.php/new/<image_id>/<flavor_id>/<rounds>/nodns`
 
 #### View the results  
 * View all the results from all the tests and generate histograms : `/openstack-boottime/index.php/view` 
