@@ -45,5 +45,9 @@ Simply query the following URLs using your favorite browser :
 `<image_id>` and `<flavor_id>` are the specifications of the new VM that will be booted. You can get a list of your available options using the `$ nova image-list` and `$ nova flavor-list` commands from `python-novaclient`.
 
 
-## Credit
-Initial writing and commit by [Quentin Barrand](quentin.barrand@cern.ch), IT-SDC-OL, 2013 Summer Student.
+## Author
+Initial writing and commit by Quentin Barrand, CERN IT-SDC-OL, 2013 Summer Student.
+
+* [Twitter](https://twitter.com/QuentinBarrand)
+* [Website](http://quentinbarrand.com)
+* [Email](mailto:quentin@quentinbarrand.com)
